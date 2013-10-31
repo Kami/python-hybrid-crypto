@@ -1,0 +1,2 @@
+python-keyczar==0.71c
+pycrypto==2.6.1
