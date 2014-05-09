@@ -20,7 +20,7 @@ with open('requirements.txt', 'r') as fp:
 
 
 setup(
-    name='hybrid_crypto',
+    name='hybrid-crypto',
     version=read_version_string(),
     long_description=open('README.rst').read() + '\n\n' +
     open('CHANGES.rst').read(),
