@@ -17,9 +17,9 @@
 class HybridCryptoMixin(object):
     block_size = 16
     header_size = 4  # Encrypted message header size (in bytes)
-    long_message_threshold = (2048 / 8) - 41  # When message can't be encryted
-                                              # using only PKC and hybrid mode
-                                              # is used
+    # When message can't be encryted using only PKC and hybrid mode
+    # is used
+    long_message_threshold = (2048 / 8) - 41
     aes_key_size = 256 / 8  # Size of the generated AES key (in bytes)
     delimiter = ':'
 
